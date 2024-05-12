@@ -1,0 +1,63 @@
+ *{
+  margin: 0;
+  padding: 0px;
+  border:none;
+ }
+ body {
+  font-family: "Kode Mono", monospace;
+}
+.container{
+  background-color:#009B72;
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center ;
+  gap:32px;
+  position: relative;
+}
+.container-title{
+  color: white;
+  font-size:48px;
+}
+.text-container{
+  display:flex;
+  gap:12px;
+  background-color:  rgba(0,0,0,85%);
+  border-radius: 8px;
+  padding: 16px;
+  width: fit-content;
+}
+.container-title-color{
+  color:aquamarine;
+  font-size: 48px;
+}
+
+.click-me-button{
+  background-color: rgba(0, 0, 0, 85%);
+  color: white;
+  font-size: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.click-me-button:hover{
+  color: rgba(255, 255, 255, 40%);
+}
+
+.number-of-clicks {
+  font-size:24px; 
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 85%);
+  color: white;
+  border-bottom-left-radius: 8px;
+  padding: 16px;
+  position: absolute;
+  top:0px;
+  right: 0px;
+}
